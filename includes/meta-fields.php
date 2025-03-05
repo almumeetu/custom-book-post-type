@@ -40,3 +40,4 @@ function book_save_meta_fields($post_id) {
     }
 }
 add_action('save_post', 'book_save_meta_fields');
+ 
